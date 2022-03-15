@@ -1,4 +1,5 @@
 # Project-4-backend
 GA Project 4 backend
 
-testing push to main
+For deployment:
+-Check DATABASES - HOST in settings.py
