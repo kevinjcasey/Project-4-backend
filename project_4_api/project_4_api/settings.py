@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9k$h(^xsnim20+b&fp0g#u#(ai#zjz86u@ay3&m--&)^gp=0+n
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost', 'https://flashcards-backend-ga.herokuapp.com/'
+    'localhost', 'flashcards-backend-ga.herokuapp.com/'
 ]
 
 
