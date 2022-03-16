@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': 'flashcards_api',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'localhost', 'flashcards-backend-ga.herokuapp.com/api/flashcards'
+        'HOST': 'localhost',
     }
 }
 
