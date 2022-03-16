@@ -11,12 +11,19 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+<<<<<<< HEAD:project_4_api/settings.py
 import dj_database_url
+=======
+from dj_database_url
+>>>>>>> main:project_4_api/project_4_api/settings.py
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+<<<<<<< HEAD:project_4_api/settings.py
 
+=======
+>>>>>>> main:project_4_api/project_4_api/settings.py
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -28,7 +35,12 @@ SECRET_KEY = 'django-insecure-9k$h(^xsnim20+b&fp0g#u#(ai#zjz86u@ay3&m--&)^gp=0+n
 DEBUG = True
 
 ALLOWED_HOSTS = [
+<<<<<<< HEAD:project_4_api/settings.py
     'localhost', 'flashcards-backend-ga.herokuapp.com'
+=======
+    'localhost',
+    'flashcards-backend-ga.herokuapp.com/'
+>>>>>>> main:project_4_api/project_4_api/settings.py
 ]
 
 
@@ -138,7 +150,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+<<<<<<< HEAD:project_4_api/settings.py
 
+=======
+>>>>>>> main:project_4_api/project_4_api/settings.py
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
