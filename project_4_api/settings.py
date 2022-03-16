@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from dj_database_url
+import dj_database_url
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,8 +27,7 @@ SECRET_KEY = 'django-insecure-9k$h(^xsnim20+b&fp0g#u#(ai#zjz86u@ay3&m--&)^gp=0+n
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    'flashcards-backend-ga.herokuapp.com'
+    'localhost', 'flashcards-backend-ga.herokuapp.com'
 ]
 
 

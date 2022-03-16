@@ -7,3 +7,4 @@ For deployment:
 3/15 we ran this: 
     heroku config:set DISABLE_COLLECTSTATIC=1
 
+
