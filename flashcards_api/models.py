@@ -2,6 +2,6 @@ from django.db import models
 
 # Create your models here.
 class Flashcard(models.Model):
-    subject = models.TextField(max_length=255)
-    question = models.TextField(max_length=255)
-    answer = models.TextField(max_length=255)
+    subject = models.CharField(max_length=255)
+    question = models.CharField(max_length=255)
+    answer = models.CharField(max_length=255)
